@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.2.0'
 
-  s.add_dependency 'activerecord', '~> 4.2'
-  s.add_dependency 'activemodel',  '~> 4.2'
+  s.add_dependency 'activerecord', '> 4.2', '< 6'
+  s.add_dependency 'activemodel',  '> 4.2', '< 6'
   s.add_dependency 'globalize',    '~> 5.0'
   s.add_dependency 'paper_trail',  '~> 8.0'
 
