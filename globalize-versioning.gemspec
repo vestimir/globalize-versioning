@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'activerecord', '> 4.2', '< 6'
   s.add_dependency 'activemodel',  '> 4.2', '< 6'
   s.add_dependency 'globalize',    '~> 5.0'
-  s.add_dependency 'paper_trail',  '~> 8.0'
+  s.add_dependency 'paper_trail',  '>= 8.0'
 
   s.add_development_dependency 'database_cleaner', '>= 1.2.0'
   s.add_development_dependency 'minitest'
